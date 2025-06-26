@@ -4,10 +4,11 @@ NeoSpark is the AI-driven operational system for Your Perfect Solutions (YPS). T
 
 ## Structure
 - `splash.html` – initial splash screen
-- `index.html` – main web page
+- `home.html` – main web page
+- `index.html` – feature highlights page
 - `styles.css` – theme and component styles
 
 ## Usage
-Open `splash.html` in your browser to see the splash page. From there, click "Enter" to access `index.html` and explore the rest of the demo.
+Open `splash.html` in your browser to see the splash page. From there, click "Enter" to access `home.html` and explore the rest of the demo.
 
 Fonts **Univa Nova** and **Ethos Nova** are referenced but may fall back to system fonts if not installed.
