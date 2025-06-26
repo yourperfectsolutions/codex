@@ -98,8 +98,39 @@ a.primary-btn {
   padding: 15px 30px;
   border-radius: 4px;
   font-size: 16px;
+  margin-right: 10px;
 }
 
 a.primary-btn:hover {
   background-color: #FE8630;
+}
+
+/* Dashboard styles */
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.metric-card {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.metric-card h2 {
+  font-family: "Univa Nova", Arial, sans-serif;
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.metric {
+  font-size: 32px;
+  font-family: "Univa Nova", Arial, sans-serif;
+  color: #491079;
 }
