@@ -7,13 +7,31 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
+  <header class="site-header">
+    <a href="home.html" class="logo">NeoSpark</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="task_submission.html">Submit Task</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
     <h1>Welcome to NeoSpark</h1>
     <p>AI-driven, human-refined operations for YPS.</p>
     <a href="index.html" class="primary-btn">Explore Features</a>
     <a href="dashboard.html" class="primary-btn">View Dashboard</a>
     <a href="task_submission.html" class="primary-btn">Submit Task</a>
-  </header>
+  </section>
+  <script>
+    const toggleBtn = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
 
