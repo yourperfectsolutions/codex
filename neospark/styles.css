@@ -134,3 +134,43 @@ a.primary-btn:hover {
   font-family: "Univa Nova", Arial, sans-serif;
   color: #491079;
 }
+
+/* Task submission form styles */
+.task-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.task-form label,
+.task-form fieldset {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.task-form input[type="text"],
+.task-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.task-form fieldset {
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+}
+
+.task-form legend {
+  font-family: "Univa Nova", Arial, sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.task-form button {
+  display: block;
+}
+

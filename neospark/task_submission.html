@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoSpark - Submit Task</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Submit a Task</h1>
+    <p>Configure permissions and details before assigning.</p>
+  </header>
+  <section class="task-form">
+    <form>
+      <label>
+        Task Title
+        <input type="text" name="title" required>
+      </label>
+      <label>
+        Description
+        <textarea name="description" rows="4" required></textarea>
+      </label>
+      <fieldset>
+        <legend>Permissions</legend>
+        <label><input type="checkbox" name="view" checked> Allow others to view</label>
+        <label><input type="checkbox" name="edit"> Allow edits</label>
+        <label><input type="checkbox" name="comment"> Allow comments</label>
+        <label><input type="checkbox" name="reassign"> Allow reassignment</label>
+      </fieldset>
+      <button type="submit" class="primary">Submit Task</button>
+    </form>
+  </section>
+</body>
+</html>

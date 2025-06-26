@@ -7,9 +7,10 @@ NeoSpark is the AI-driven operational system for Your Perfect Solutions (YPS). T
 - `home.html` – main web page
 - `index.html` – feature highlights page
 - `dashboard.html` – sample operational metrics dashboard
+- `task_submission.html` – demo task submission and permission form
 - `styles.css` – theme and component styles
 
 ## Usage
-Open `splash.html` in your browser to see the splash page. From there, click "Enter" to access `home.html` and explore the rest of the demo. Use the dashboard link on the home page to view sample metrics for NeoSpark Genie.
+Open `splash.html` in your browser to see the splash page. From there, click "Enter" to access `home.html` and explore the rest of the demo. Use the dashboard link on the home page to view sample metrics for NeoSpark Genie, or navigate to the task submission page to try configuring permissions on a new task.
 
 Fonts **Univa Nova** and **Ethos Nova** are referenced but may fall back to system fonts if not installed.
