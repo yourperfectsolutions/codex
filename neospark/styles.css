@@ -1,0 +1,267 @@
+/* NeoSpark Branding Styles */
+
+body {
+  font-family: "Ethos Nova", Arial, sans-serif;
+  color: #491079;
+  background-color: #FFFFFF;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.hero {
+  background: linear-gradient(60deg, #FE8630, #491079);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-family: "Univa Nova", Arial, sans-serif;
+  font-size: 60px;
+  margin: 0 0 20px;
+  letter-spacing: -0.5px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+button.primary {
+  background-color: #491079;
+  color: #FFFFFF;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.primary:hover {
+  background-color: #FE8630;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin: 10px;
+  padding: 20px;
+  max-width: 300px;
+}
+
+.card h2 {
+  font-family: "Univa Nova", Arial, sans-serif;
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+/* Splash page layout */
+.splash-container {
+  background: linear-gradient(60deg, #FFCB13, #491079);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.splash-container h1 {
+  font-family: "Univa Nova", Arial, sans-serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
+}
+
+.splash-container p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+a.primary-btn {
+  background-color: #491079;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+a.primary-btn:hover {
+  background-color: #FE8630;
+}
+
+/* Dashboard styles */
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.metric-card {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.metric-card h2 {
+  font-family: "Univa Nova", Arial, sans-serif;
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.metric {
+  font-size: 32px;
+  font-family: "Univa Nova", Arial, sans-serif;
+  color: #491079;
+}
+
+/* Task submission form styles */
+.task-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.task-form label,
+.task-form fieldset {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.task-form input[type="text"],
+.task-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.task-form fieldset {
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+}
+
+.task-form legend {
+  font-family: "Univa Nova", Arial, sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.task-form button {
+  display: block;
+}
+
+/* Login form styles */
+.login-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  display: block;
+}
+
+/* Responsive header styles */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: url('header-bg.svg') center/cover no-repeat;
+  background-color: #491079; /* fallback */
+  color: white;
+}
+
+.site-header .logo {
+  font-family: "Univa Nova", Arial, sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .site-header {
+    flex-wrap: wrap;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+  }
+}
+

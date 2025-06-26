@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoSpark</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="home.html" class="logo">NeoSpark</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="task_submission.html">Submit Task</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Spark Your Business Forward</h1>
+    <p>Let NeoSpark handle the busywork so you can shine.</p>
+    <button class="primary">Get Started</button>
+    <a href="dashboard.html" class="primary-btn">View Dashboard</a>
+    <a href="task_submission.html" class="primary-btn">Submit Task</a>
+  </section>
+  <section class="features">
+    <div class="card">
+      <h2>Enhance Efficiency</h2>
+      <p>AI-driven task routing improves your workflow.</p>
+    </div>
+    <div class="card">
+      <h2>Quality Assurance</h2>
+      <p>Consistent deliverables with minimal revisions.</p>
+    </div>
+    <div class="card">
+      <h2>Resource Management</h2>
+      <p>Allocate tasks intelligently between AI and Perfect Pros.</p>
+    </div>
+  </section>
+  <script>
+    const toggleBtn = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

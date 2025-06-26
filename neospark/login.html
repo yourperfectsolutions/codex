@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoSpark - Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="home.html" class="logo">NeoSpark</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="task_submission.html">Submit Task</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Login to NeoSpark</h1>
+    <p>Access your dashboard and manage tasks.</p>
+  </section>
+  <section class="login-form">
+    <form action="dashboard.html">
+      <label>
+        Username
+        <input type="text" name="username" required>
+      </label>
+      <label>
+        Password
+        <input type="password" name="password" required>
+      </label>
+      <button type="submit" class="primary">Login</button>
+    </form>
+  </section>
+  <script>
+    const toggleBtn = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
+
