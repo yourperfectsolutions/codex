@@ -174,3 +174,30 @@ a.primary-btn:hover {
   display: block;
 }
 
+/* Login form styles */
+.login-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  display: block;
+}
+

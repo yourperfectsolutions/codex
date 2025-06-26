@@ -4,4 +4,4 @@ This repository contains prototypes and demos.
 
 ## NeoSpark
 
-The `neospark` directory includes a basic demo of the NeoSpark app for Your Perfect Solutions (YPS). Start with `splash.html` to view the splash screen, then proceed to `home.html` to explore the demo interface and branding. From there you can access the dashboard to see sample metrics or open the task submission page to experiment with permissions.
+The `neospark` directory includes a basic demo of the NeoSpark app for Your Perfect Solutions (YPS). Begin with `splash.html` to see the splash screen, continue to `login.html` to sign in, and then view the `dashboard.html` with sample metrics. Additional pages such as `home.html`, `index.html`, and `task_submission.html` showcase other areas of the UI.
